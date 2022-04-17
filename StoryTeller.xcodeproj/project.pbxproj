@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5460F194EB9A5ADD272B17C /* Pods_StoryTellerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38300446D9D5E2FD99D0F32B /* Pods_StoryTellerTests.framework */; };
 		C316B14028082508001EB344 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C316B13F28082508001EB344 /* AppDelegate.swift */; };
 		C316B14228082508001EB344 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C316B14128082508001EB344 /* SceneDelegate.swift */; };
 		C316B14428082508001EB344 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C316B14328082508001EB344 /* ViewController.swift */; };
@@ -16,6 +17,26 @@
 		C316B15728082509001EB344 /* StoryTellerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C316B15628082509001EB344 /* StoryTellerTests.swift */; };
 		C316B16128082509001EB344 /* StoryTellerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C316B16028082509001EB344 /* StoryTellerUITests.swift */; };
 		C316B16328082509001EB344 /* StoryTellerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C316B16228082509001EB344 /* StoryTellerUITestsLaunchTests.swift */; };
+		C316B17028082846001EB344 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C316B16F28082846001EB344 /* GoogleService-Info.plist */; };
+		C3506C7E28089B7100691BC4 /* StoryReplyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3506C7D28089B7100691BC4 /* StoryReplyModel.swift */; };
+		C3506C852808CC0C00691BC4 /* AddStoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3506C832808CC0C00691BC4 /* AddStoryViewController.swift */; };
+		C3506C862808CC0C00691BC4 /* AddStoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3506C842808CC0C00691BC4 /* AddStoryViewController.xib */; };
+		C3506C882808DF9100691BC4 /* StoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3506C872808DF9100691BC4 /* StoryTableViewController.swift */; };
+		C3506C91280AD96300691BC4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3506C8F280AD96300691BC4 /* ProfileViewController.swift */; };
+		C3506C92280AD96300691BC4 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3506C90280AD96300691BC4 /* ProfileViewController.xib */; };
+		C3506C95280BB65F00691BC4 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3506C93280BB65F00691BC4 /* ChangePasswordViewController.swift */; };
+		C3506C96280BB65F00691BC4 /* ChangePasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3506C94280BB65F00691BC4 /* ChangePasswordViewController.xib */; };
+		C3AC880D28083CE5001B6603 /* StoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC880B28083CE5001B6603 /* StoryTableViewCell.swift */; };
+		C3AC880E28083CE5001B6603 /* StoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3AC880C28083CE5001B6603 /* StoryTableViewCell.xib */; };
+		C3AC881228083D3B001B6603 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC881128083D3B001B6603 /* HomeViewController.swift */; };
+		C3AC881428083DAC001B6603 /* UIHelperMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC881328083DAC001B6603 /* UIHelperMethods.swift */; };
+		C3AC8816280860DB001B6603 /* StoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC8815280860DB001B6603 /* StoryModel.swift */; };
+		C3AC881B28089318001B6603 /* StoryReplyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC881928089318001B6603 /* StoryReplyTableViewCell.swift */; };
+		C3AC881C28089318001B6603 /* StoryReplyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3AC881A28089318001B6603 /* StoryReplyTableViewCell.xib */; };
+		C3AC88212808946A001B6603 /* StoryReplyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC881F2808946A001B6603 /* StoryReplyTableViewController.swift */; };
+		C3AC88222808946A001B6603 /* StoryReplyTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3AC88202808946A001B6603 /* StoryReplyTableViewController.xib */; };
+		EFC11232E603F2BCDD6AF17C /* Pods_StoryTeller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 102971107AB3A5D594680FC2 /* Pods_StoryTeller.framework */; };
+		F48EC98317854E48B464C359 /* Pods_StoryTeller_StoryTellerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 083EF745FB8881C3053C1383 /* Pods_StoryTeller_StoryTellerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +57,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		041A987DDB323AE05A434738 /* Pods-StoryTeller.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoryTeller.debug.xcconfig"; path = "Target Support Files/Pods-StoryTeller/Pods-StoryTeller.debug.xcconfig"; sourceTree = "<group>"; };
+		083EF745FB8881C3053C1383 /* Pods_StoryTeller_StoryTellerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StoryTeller_StoryTellerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		102971107AB3A5D594680FC2 /* Pods_StoryTeller.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StoryTeller.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38300446D9D5E2FD99D0F32B /* Pods_StoryTellerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StoryTellerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		466366631B20524D09D50BB0 /* Pods-StoryTeller-StoryTellerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoryTeller-StoryTellerUITests.debug.xcconfig"; path = "Target Support Files/Pods-StoryTeller-StoryTellerUITests/Pods-StoryTeller-StoryTellerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		87F1936E2A139CEDA3FAF125 /* Pods-StoryTeller-StoryTellerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoryTeller-StoryTellerUITests.release.xcconfig"; path = "Target Support Files/Pods-StoryTeller-StoryTellerUITests/Pods-StoryTeller-StoryTellerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		972D3E764BA810E91EDDE6D9 /* Pods-StoryTeller.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoryTeller.release.xcconfig"; path = "Target Support Files/Pods-StoryTeller/Pods-StoryTeller.release.xcconfig"; sourceTree = "<group>"; };
 		C316B13C28082508001EB344 /* StoryTeller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryTeller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C316B13F28082508001EB344 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C316B14128082508001EB344 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +77,26 @@
 		C316B15C28082509001EB344 /* StoryTellerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryTellerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C316B16028082509001EB344 /* StoryTellerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryTellerUITests.swift; sourceTree = "<group>"; };
 		C316B16228082509001EB344 /* StoryTellerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryTellerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C316B16F28082846001EB344 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Users/mahajan/Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C3506C7D28089B7100691BC4 /* StoryReplyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryReplyModel.swift; sourceTree = "<group>"; };
+		C3506C832808CC0C00691BC4 /* AddStoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStoryViewController.swift; sourceTree = "<group>"; };
+		C3506C842808CC0C00691BC4 /* AddStoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddStoryViewController.xib; sourceTree = "<group>"; };
+		C3506C872808DF9100691BC4 /* StoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryTableViewController.swift; sourceTree = "<group>"; };
+		C3506C8F280AD96300691BC4 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = ../TableViewCells/ProfileViewController.swift; sourceTree = "<group>"; };
+		C3506C90280AD96300691BC4 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		C3506C93280BB65F00691BC4 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		C3506C94280BB65F00691BC4 /* ChangePasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangePasswordViewController.xib; sourceTree = "<group>"; };
+		C3AC880B28083CE5001B6603 /* StoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryTableViewCell.swift; sourceTree = "<group>"; };
+		C3AC880C28083CE5001B6603 /* StoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoryTableViewCell.xib; sourceTree = "<group>"; };
+		C3AC881128083D3B001B6603 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C3AC881328083DAC001B6603 /* UIHelperMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelperMethods.swift; sourceTree = "<group>"; };
+		C3AC8815280860DB001B6603 /* StoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryModel.swift; sourceTree = "<group>"; };
+		C3AC881928089318001B6603 /* StoryReplyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryReplyTableViewCell.swift; sourceTree = "<group>"; };
+		C3AC881A28089318001B6603 /* StoryReplyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoryReplyTableViewCell.xib; sourceTree = "<group>"; };
+		C3AC881F2808946A001B6603 /* StoryReplyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryReplyTableViewController.swift; sourceTree = "<group>"; };
+		C3AC88202808946A001B6603 /* StoryReplyTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoryReplyTableViewController.xib; sourceTree = "<group>"; };
+		C94614B72D783D78A071F714 /* Pods-StoryTellerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoryTellerTests.release.xcconfig"; path = "Target Support Files/Pods-StoryTellerTests/Pods-StoryTellerTests.release.xcconfig"; sourceTree = "<group>"; };
+		FB04F6644C6CD5B0625BDCB3 /* Pods-StoryTellerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoryTellerTests.debug.xcconfig"; path = "Target Support Files/Pods-StoryTellerTests/Pods-StoryTellerTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFC11232E603F2BCDD6AF17C /* Pods_StoryTeller.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5460F194EB9A5ADD272B17C /* Pods_StoryTellerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +120,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F48EC98317854E48B464C359 /* Pods_StoryTeller_StoryTellerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E6D8D1E132FD8501E3123F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				102971107AB3A5D594680FC2 /* Pods_StoryTeller.framework */,
+				083EF745FB8881C3053C1383 /* Pods_StoryTeller_StoryTellerUITests.framework */,
+				38300446D9D5E2FD99D0F32B /* Pods_StoryTellerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C316B13328082508001EB344 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +144,8 @@
 				C316B15528082509001EB344 /* StoryTellerTests */,
 				C316B15F28082509001EB344 /* StoryTellerUITests */,
 				C316B13D28082508001EB344 /* Products */,
+				DFAAE5EAC88C4A5433E6AC24 /* Pods */,
+				0E6D8D1E132FD8501E3123F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +162,11 @@
 		C316B13E28082508001EB344 /* StoryTeller */ = {
 			isa = PBXGroup;
 			children = (
-				C316B13F28082508001EB344 /* AppDelegate.swift */,
-				C316B14128082508001EB344 /* SceneDelegate.swift */,
-				C316B14328082508001EB344 /* ViewController.swift */,
-				C316B14528082508001EB344 /* Main.storyboard */,
-				C316B14828082509001EB344 /* Assets.xcassets */,
-				C316B14A28082509001EB344 /* LaunchScreen.storyboard */,
-				C316B14D28082509001EB344 /* Info.plist */,
+				C371D3BC28082F890000AE86 /* Supporting Files */,
+				C371D3BB28082F700000AE86 /* Controllers */,
+				C371D3BA28082F6A0000AE86 /* Views */,
+				C371D3B928082F640000AE86 /* Models */,
+				C316B16F28082846001EB344 /* GoogleService-Info.plist */,
 			);
 			path = StoryTeller;
 			sourceTree = "<group>";
@@ -127,6 +188,119 @@
 			path = StoryTellerUITests;
 			sourceTree = "<group>";
 		};
+		C371D3B928082F640000AE86 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C3AC8815280860DB001B6603 /* StoryModel.swift */,
+				C3506C7D28089B7100691BC4 /* StoryReplyModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C371D3BA28082F6A0000AE86 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C3AC882328089471001B6603 /* TableViewControllers */,
+				C3AC880F28083CED001B6603 /* TableViewCells */,
+				C316B14A28082509001EB344 /* LaunchScreen.storyboard */,
+				C371D3BE28082FB30000AE86 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C371D3BB28082F700000AE86 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C3AC881028083D0A001B6603 /* ViewControllers */,
+				C3AC880828083CB4001B6603 /* TableViewCells */,
+				C3AC880528083C6F001B6603 /* TableViewControllers */,
+				C316B14328082508001EB344 /* ViewController.swift */,
+				C3AC881328083DAC001B6603 /* UIHelperMethods.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C371D3BC28082F890000AE86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C316B13F28082508001EB344 /* AppDelegate.swift */,
+				C316B14128082508001EB344 /* SceneDelegate.swift */,
+				C316B14828082509001EB344 /* Assets.xcassets */,
+				C316B14D28082509001EB344 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C371D3BE28082FB30000AE86 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C3506C94280BB65F00691BC4 /* ChangePasswordViewController.xib */,
+				C3506C90280AD96300691BC4 /* ProfileViewController.xib */,
+				C3506C842808CC0C00691BC4 /* AddStoryViewController.xib */,
+				C316B14528082508001EB344 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C3AC880528083C6F001B6603 /* TableViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C3506C872808DF9100691BC4 /* StoryTableViewController.swift */,
+				C3AC881F2808946A001B6603 /* StoryReplyTableViewController.swift */,
+			);
+			path = TableViewControllers;
+			sourceTree = "<group>";
+		};
+		C3AC880828083CB4001B6603 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				C3AC880B28083CE5001B6603 /* StoryTableViewCell.swift */,
+				C3AC881928089318001B6603 /* StoryReplyTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		C3AC880F28083CED001B6603 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				C3AC881A28089318001B6603 /* StoryReplyTableViewCell.xib */,
+				C3AC880C28083CE5001B6603 /* StoryTableViewCell.xib */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		C3AC881028083D0A001B6603 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C3AC881128083D3B001B6603 /* HomeViewController.swift */,
+				C3506C832808CC0C00691BC4 /* AddStoryViewController.swift */,
+				C3506C8F280AD96300691BC4 /* ProfileViewController.swift */,
+				C3506C93280BB65F00691BC4 /* ChangePasswordViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C3AC882328089471001B6603 /* TableViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C3AC88202808946A001B6603 /* StoryReplyTableViewController.xib */,
+			);
+			path = TableViewControllers;
+			sourceTree = "<group>";
+		};
+		DFAAE5EAC88C4A5433E6AC24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				041A987DDB323AE05A434738 /* Pods-StoryTeller.debug.xcconfig */,
+				972D3E764BA810E91EDDE6D9 /* Pods-StoryTeller.release.xcconfig */,
+				466366631B20524D09D50BB0 /* Pods-StoryTeller-StoryTellerUITests.debug.xcconfig */,
+				87F1936E2A139CEDA3FAF125 /* Pods-StoryTeller-StoryTellerUITests.release.xcconfig */,
+				FB04F6644C6CD5B0625BDCB3 /* Pods-StoryTellerTests.debug.xcconfig */,
+				C94614B72D783D78A071F714 /* Pods-StoryTellerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +308,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C316B16628082509001EB344 /* Build configuration list for PBXNativeTarget "StoryTeller" */;
 			buildPhases = (
+				92F4A41D1F28AC28CF249921 /* [CP] Check Pods Manifest.lock */,
 				C316B13828082508001EB344 /* Sources */,
 				C316B13928082508001EB344 /* Frameworks */,
 				C316B13A28082508001EB344 /* Resources */,
+				264366AF2E44B28C88222AC7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +327,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C316B16928082509001EB344 /* Build configuration list for PBXNativeTarget "StoryTellerTests" */;
 			buildPhases = (
+				281D58C6951B619AC538A177 /* [CP] Check Pods Manifest.lock */,
 				C316B14E28082509001EB344 /* Sources */,
 				C316B14F28082509001EB344 /* Frameworks */,
 				C316B15028082509001EB344 /* Resources */,
@@ -169,9 +346,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C316B16C28082509001EB344 /* Build configuration list for PBXNativeTarget "StoryTellerUITests" */;
 			buildPhases = (
+				9A9E488648E9D7503B19DFF2 /* [CP] Check Pods Manifest.lock */,
 				C316B15828082509001EB344 /* Sources */,
 				C316B15928082509001EB344 /* Frameworks */,
 				C316B15A28082509001EB344 /* Resources */,
+				62F5D990F25409F30538AC3E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,8 +410,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3506C92280AD96300691BC4 /* ProfileViewController.xib in Resources */,
+				C3AC88222808946A001B6603 /* StoryReplyTableViewController.xib in Resources */,
+				C3506C96280BB65F00691BC4 /* ChangePasswordViewController.xib in Resources */,
 				C316B14C28082509001EB344 /* LaunchScreen.storyboard in Resources */,
+				C316B17028082846001EB344 /* GoogleService-Info.plist in Resources */,
+				C3AC881C28089318001B6603 /* StoryReplyTableViewCell.xib in Resources */,
+				C3506C862808CC0C00691BC4 /* AddStoryViewController.xib in Resources */,
 				C316B14928082509001EB344 /* Assets.xcassets in Resources */,
+				C3AC880E28083CE5001B6603 /* StoryTableViewCell.xib in Resources */,
 				C316B14728082508001EB344 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +439,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		264366AF2E44B28C88222AC7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StoryTeller/Pods-StoryTeller-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StoryTeller/Pods-StoryTeller-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StoryTeller/Pods-StoryTeller-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		281D58C6951B619AC538A177 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StoryTellerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62F5D990F25409F30538AC3E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StoryTeller-StoryTellerUITests/Pods-StoryTeller-StoryTellerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StoryTeller-StoryTellerUITests/Pods-StoryTeller-StoryTellerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StoryTeller-StoryTellerUITests/Pods-StoryTeller-StoryTellerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92F4A41D1F28AC28CF249921 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StoryTeller-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A9E488648E9D7503B19DFF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StoryTeller-StoryTellerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C316B13828082508001EB344 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -260,7 +549,18 @@
 			files = (
 				C316B14428082508001EB344 /* ViewController.swift in Sources */,
 				C316B14028082508001EB344 /* AppDelegate.swift in Sources */,
+				C3AC88212808946A001B6603 /* StoryReplyTableViewController.swift in Sources */,
 				C316B14228082508001EB344 /* SceneDelegate.swift in Sources */,
+				C3506C852808CC0C00691BC4 /* AddStoryViewController.swift in Sources */,
+				C3AC881B28089318001B6603 /* StoryReplyTableViewCell.swift in Sources */,
+				C3506C7E28089B7100691BC4 /* StoryReplyModel.swift in Sources */,
+				C3AC880D28083CE5001B6603 /* StoryTableViewCell.swift in Sources */,
+				C3AC8816280860DB001B6603 /* StoryModel.swift in Sources */,
+				C3506C882808DF9100691BC4 /* StoryTableViewController.swift in Sources */,
+				C3506C91280AD96300691BC4 /* ProfileViewController.swift in Sources */,
+				C3AC881228083D3B001B6603 /* HomeViewController.swift in Sources */,
+				C3AC881428083DAC001B6603 /* UIHelperMethods.swift in Sources */,
+				C3506C95280BB65F00691BC4 /* ChangePasswordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,13 +734,14 @@
 		};
 		C316B16728082509001EB344 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 041A987DDB323AE05A434738 /* Pods-StoryTeller.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = StoryTeller/Info.plist;
+				INFOPLIST_FILE = "StoryTeller/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -451,7 +752,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.group4.StoryTeller;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahajan.StoryTeller;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -461,13 +762,14 @@
 		};
 		C316B16828082509001EB344 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 972D3E764BA810E91EDDE6D9 /* Pods-StoryTeller.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = StoryTeller/Info.plist;
+				INFOPLIST_FILE = "StoryTeller/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -478,7 +780,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.group4.StoryTeller;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahajan.StoryTeller;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -488,6 +790,7 @@
 		};
 		C316B16A28082509001EB344 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB04F6644C6CD5B0625BDCB3 /* Pods-StoryTellerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -507,6 +810,7 @@
 		};
 		C316B16B28082509001EB344 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C94614B72D783D78A071F714 /* Pods-StoryTellerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -526,6 +830,7 @@
 		};
 		C316B16D28082509001EB344 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 466366631B20524D09D50BB0 /* Pods-StoryTeller-StoryTellerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -543,6 +848,7 @@
 		};
 		C316B16E28082509001EB344 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87F1936E2A139CEDA3FAF125 /* Pods-StoryTeller-StoryTellerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
